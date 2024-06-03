@@ -1,0 +1,47 @@
+
+% 1
+WIND_IN_EAST → SUNSHINE.
+
+% 2
+(COLD ∧ FOGGY) →  NEIGHBOR_PRACTICES_FLUTE.
+
+% 3
+FIRE_SMOKES → DOOR_IS_OPEN.
+
+% 4
+(COLD ∧ I_FEEL_RHEUMATIC) →  FIRE_IS_LIT.
+
+% 5
+(WIND_IN_EAST ∧ WIND_IN_GUSTS) → FIRE_SMOKES.
+
+% 6
+DOOR_IS_OPEN → ¬ HEADACHE.
+
+% 7
+(FOGGY) → WINDOW_IS_SHUT.
+% note that the "even if" is just a distractor;
+% thus neither "SUNSHINE" nor ¬ COLD are required
+% (they are both mentioned together)
+
+% 8
+(¬ WIND_IN_GUSTS ∧ FIRE_IS_LIT ∧ ¬ DOOR_IS_OPEN) → ¬ I_FEEL_RHEUMATIC.
+
+% 9
+SUNSHINE → FOGGY.
+
+% 10
+NEIGHBOR_PRACTICES_FLUTE → ¬ DOOR_IS_OPEN.
+% note that the "even if" is just a distractor;
+% it's not required
+
+% 11
+(FOGGY ∧ WIND_IN_EAST) →  I_FEEL_RHEUMATIC.
+
+% Check out yourself whether A follows, B, neither, or both
+%
+% A
+% (WIND_IN_GUSTS → I_FEEL_RHEUMATIC).
+
+% B
+% (WIND_IN_EAST → WINDOW_IS_SHUT).
+
